@@ -3,9 +3,9 @@
 Collected by [@theArjun](https://github.com/theArjun)
 
 ## Rules
-[Flake8 Rules](https://lintlyci.github.io/Flake8Rules/)
-[Isort Rules](https://pycqa.github.io/isort/docs/configuration/options/)
-[YAPF Rules](https://github.com/google/yapf/blob/master/README.rst)
+[Flake8 Rules](https://lintlyci.github.io/Flake8Rules/)   
+[Isort Rules](https://pycqa.github.io/isort/docs/configuration/options/)   
+[YAPF Rules](https://github.com/google/yapf/blob/master/README.rst)   
 
 ## References
 
