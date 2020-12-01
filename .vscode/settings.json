@@ -4,4 +4,8 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
+  "python.linting.flake8Path": ".env/bin/flake8",
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8CategorySeverity.F": "Error",
+  "python.linting.flake8CategorySeverity.E": "Error",
 }
