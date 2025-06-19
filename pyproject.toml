@@ -1,0 +1,27 @@
+[project]
+name = "python-project-vscode"
+version = "0.1.0"
+description = "Skeleton for python project using vscode."
+requires-python = ">=3.13"
+
+[tool.ruff]
+exclude = [".venv", "venv", ".env", "env", ".git", ".ruff_cache", ".vscode"]
+cache-dir = "~/.cache/ruff"
+indent-width = 4
+line-length = 120
+show-fixes = true
+target-version = "py313"
+preview = true
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+
+[tool.pyright]
+# from https://microsoft.github.io/pyright/#/configuration?id=sample-pyprojecttoml-file
+typeCheckingMode = "standard"
+useLibraryCodeForTypes = true
+venvPath = ".venv"
+reportMissingImports = true
+reportMissingTypeStubs = false
+stubPath = "typings"
+pythonVersion = "3.13"

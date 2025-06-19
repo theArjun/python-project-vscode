@@ -1,11 +1,48 @@
 {
-  "python.formatting.provider": "yapf",
-  "python.linting.flake8Args": ["--config=.flake8"],
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": true
-  },
-  "python.linting.flake8Path": ".env/bin/flake8",
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8CategorySeverity.F": "Error",
-  "python.linting.flake8CategorySeverity.E": "Error",
+"editor.formatOnSave": true,
+"python.terminal.activateEnvironment": true,
+"editor.tabSize": 4,
+"editor.insertSpaces": true,
+"editor.detectIndentation": true,
+"editor.formatOnSaveMode": "modifications",
+"[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+},
+"[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.rulers": [
+        88
+    ]
+},
+"python.testing.pytestEnabled": true,
+"python.testing.unittestEnabled": false,
+"python.testing.pytestArgs": [
+    "tests"
+],
+"python.analysis.autoImportCompletions": true,
+"python.analysis.typeCheckingMode": "standard",
+"ruff.organizeImports": true,
+"ruff.fixAll": true,
+"files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/*.egg-info": true
+},
+"search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.venv": true,
+    "**/venv": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true
+}
 }

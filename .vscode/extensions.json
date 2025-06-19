@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "pomber.git-file-history",
+        "ms-pyright.pyright",
+        "usernamehw.errorlens",
+        "hanskre.markdown-execute",
+    ]
+}
